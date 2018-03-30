@@ -572,7 +572,7 @@
 			
 			function writeInPreview(data) {
 				if (options.previewInElement) {
-					$(options.previewInElement).html(data);
+					$(options.previewInElement).text(data);
 				} else if (previewWindow && previewWindow.document) {			
 					try {
 						sp = previewWindow.document.documentElement.scrollTop
